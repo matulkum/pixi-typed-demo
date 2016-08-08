@@ -1,0 +1,9 @@
+{
+  "name": "pixijs-tests",
+  "dependencies": {},
+  "globalDependencies": {
+    "gsap/tweenlite": "registry:dt/gsap/tweenlite#0.0.0+20160316155526",
+    "pixi.js": "registry:dt/pixi.js#3.0.9+20160705114540",
+    "tween.js": "registry:dt/tween.js#0.0.0+20160608102153"
+  }
+}

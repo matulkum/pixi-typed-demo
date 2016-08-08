@@ -1,0 +1,22 @@
+{
+  "name": "pixijs-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit npm1",
+    "dev" : "watchify ./src -p tsify -o public/index.js & cd public && lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^1.19.0",
+    "pixi.js": "^4.0.0-rc3",
+    "tween.js": "^16.3.5"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "tsify": "^1.0.3",
+    "watchify": "^3.7.0"
+  }
+}
